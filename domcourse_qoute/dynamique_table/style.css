@@ -1,0 +1,23 @@
+#tabble {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#tabble th, #tabble td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.deleteBtn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.deleteBtn:hover {
+    background-color: darkred;
+}

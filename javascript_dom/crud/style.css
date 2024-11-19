@@ -1,0 +1,63 @@
+table{
+    width: 80%;
+    margin: 40px auto;
+    background: rgba(5, 168, 173, 0.658);
+}
+body{
+    background-image: url("");
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+    /* margin: 20px; */
+}
+select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius:4px ;
+}
+td{
+    border: 1px solid blueviolet ;
+    text-align: left;
+    padding: 0px 15px;
+    
+}
+
+tr:nth-child(even),table.list thread> tr{
+background-color: pink ;
+}
+
+input[type="text"], select,input[type="date"]{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius:4px ;
+}
+input[type="submit"],input[type="reset"]{
+background: white;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: 1px solid beige ;
+font-size: 1rem;
+cursor: pointer;
+}
+
+
+button{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid green ;
+    border-radius:4px ;
+}
+.form_action-button{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}

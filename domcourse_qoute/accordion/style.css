@@ -1,0 +1,39 @@
+body{
+    /* background: url("library.jpg") no-repeat center center/cover; */
+    height: 100vh;
+    
+}
+
+h1{
+    color: white;
+}
+h4{
+    border-bottom: 3px solid black;
+
+}
+.para-all{
+    margin-left: 12%;
+    height: 450px;
+    width: 65%;
+    text-align: center;
+    padding: 55px;
+    background-color: aqua;
+}
+
+
+h4::after{
+    content: '+';
+    position: absolute;
+    right: 19%;
+}
+.answer{
+    overflow: hidden;
+    height: 0;
+    /* width: 100%; */
+    /* padding: 20px; */
+    line-height: 1.5;
+}
+
+.para-all .content-container.active .answer{
+    height: 100px;
+}

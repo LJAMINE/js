@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form   id="formm">
+        <input type="text" placeholder="name" id="textInput" required>
+        <input type="email" placeholder="email" id="emailInput" required>
+        <input type="date" id="dateInput"required>
+        <select name="" id="etat" required>
+            <option value="start">start</option>
+            <option value="middle">middle</option>
+            <option value="done">done</option>
+        </select>
+    </form>
+
+    <button  type="submit" id="add">add</button>
+    <button  type="button" id="resett">reset</button>
+
+    <table>
+       <thead>
+        <tr>
+            <th>name</th>
+            <th>email</th>
+            <th>date</th>
+            <th>etat</th>
+
+        </tr>
+       </thead>
+        <tbody id="stock"></tbody>
+    </table>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
