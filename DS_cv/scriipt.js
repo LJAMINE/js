@@ -9,19 +9,19 @@ let datecv=document.getElementById("datecv")
 
 nameIn.addEventListener("input",function(){
 
-    nomcv.textContent=nameIn.value||"place"
+    nomcv.textContent=nameIn.value||"vide"
  
 
 })
 metier.addEventListener("input",function(){
 
-    metiercv.textContent=metier.value||"place"
+    metiercv.textContent=metier.value||"vide"
  
 
 })
 age.addEventListener("input",function(){
 
-    datecv.textContent=age.value||"place"
+    datecv.textContent=age.value||"vide"
  
 
 })

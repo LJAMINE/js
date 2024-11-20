@@ -1,0 +1,34 @@
+ img{
+    width: 100px;
+    height: 100px;
+ }
+
+ .container{
+    border: 1px solid blue;
+    width: 100px;
+    height: 200px;
+    
+ }
+ .allProduct{
+    margin: 40px;
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 20px;
+ }
+ #btnPrix{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .drawar{
+    display: none;
+    position: absolute;
+    /* left: 97%; */
+    right: 0%; /* Fully off-screen initially */
+
+    width: 200px;
+    height: 800px;
+    background-color: beige;
+ }
+
+ 
