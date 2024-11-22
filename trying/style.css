@@ -1,0 +1,55 @@
+/* drawer */
+
+/* .bbody{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.allProduct{
+    border: 1px solid green;
+    height: 200px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+#myhiddenDrawer{
+    display: none;
+    height: 400px;
+    width: 300px;
+    background-color: beige;
+    position: absolute;
+    left: 73%;
+}
+
+#btnTotal{
+    background-color: green;
+} */
+
+
+
+
+
+/* table */
+
+#tabble{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* justify-content: space-between; */
+    border: 1px solid blue;
+    margin: 10px;
+    /* width: 30%; */
+    /* gap: 100px; */
+
+}

@@ -24,22 +24,7 @@ btn.addEventListener("click",() => {
    
 
     
-    // stock.appendChild(li)
-    // stock.appendChild(btndelete)
-    // // console.log(inputText)
-    // inputText.value=""
-
-
-    // let deleteB=doc.getElementById("deleteB")
-    
-    // deleteB.addEventListener("click",function(){
-       
-    //   let stockRem=document.getElementById("stock")
-    
-    //   stockRem.removeChild(li)
-     
-    // })
-
+  
 })
 
 

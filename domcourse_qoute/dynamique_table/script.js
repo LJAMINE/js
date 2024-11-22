@@ -1,83 +1,39 @@
-let nameInput=document.getElementById("nameInput");
-let ageInput=document.getElementById("ageInput");
+let nameInput = document.getElementById("nameInput");
+let ageInput = document.getElementById("ageInput");
 
-let submitbtn=document.getElementById("submitbtn");
+let submitbtn = document.getElementById("submitbtn");
 
-let tabble=document.getElementById("tabble");
-
-
-submitbtn.addEventListener("click",(event) => {
+let tabble = document.getElementById("tabble");
 
 
-    // event.preventDefault()
-
-    // let newInp=nameInput.value
-    // let newageInput=ageInput.value
-
-    // if(newInp==="" || newageInput===""){
-    //     alert("saisir info");
-    // }
-
-
-    // let newRow=document.createElement("tr")
-
-
-    // let nomcell1=document.createElement("td")
-    // nomcell1.innerText=newInp
-
-    // let agecell2=document.createElement("td")
-    // agecell2.innerText=newageInput
-
-    // let deleCell=document.createElement("td")
-    // let deletBtn=document.createElement("button")
-
-    // deletBtn.innerText="delete"
-    // deletBtn.className="deleteBtn"
-
-    // deleCell.appendChild(deletBtn)
-
-
-
-    // newRow.appendChild(nomcell1)
-    // newRow.appendChild(agecell2)
-    // newRow.appendChild(deletBtn)
-
-    // tabble.appendChild(newRow);
-
-    // nameInput.value=""
-    // ageInput.value=""
-
-
-
-
-
+submitbtn.addEventListener("click", (event) => {
 
     event.preventDefault();
 
-    let newageValue=ageInput.value
-    let newnameInput=nameInput.value
+    let newageValue = ageInput.value
+    let newnameInput = nameInput.value
 
-    if(newageValue===""||newnameInput===""){
+    if (newageValue === "" || newnameInput === "") {
         alert("please send info")
     }
 
 
 
-    let newRow=document.createElement("tr")
+    let newRow = document.createElement("tr")
 
-    let celAge=document.createElement("td")
-     celAge.innerText=newageValue
-
-
-    let celName=document.createElement("td")
-    celName.innerText=newnameInput
+    let celAge = document.createElement("td")
+    celAge.innerText = newageValue
 
 
-    let deletCell=document.createElement("td")
-    let deletbtn=document.createElement("button")
+    let celName = document.createElement("td")
+    celName.innerText = newnameInput
 
-    deletbtn.innerText="delete"
-    deletbtn.className="myDelete"
+
+    let deletCell = document.createElement("td")
+    let deletbtn = document.createElement("button")
+
+    deletbtn.innerText = "delete"
+    deletbtn.className = "myDelete"
 
     deletCell.appendChild(deletbtn)
 
@@ -89,15 +45,15 @@ submitbtn.addEventListener("click",(event) => {
 
     tabble.appendChild(newRow)
 
-    nameInput.value=""
-    ageInput.value=""
+    nameInput.value = ""
+    ageInput.value = ""
 
 
 
 
-    deletbtn.addEventListener("click",() => {
-  
-       tabble.removeChild(newRow)
+    deletbtn.addEventListener("click", () => {
+
+        tabble.removeChild(newRow)
     })
 
 
